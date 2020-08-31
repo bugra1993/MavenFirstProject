@@ -38,7 +38,7 @@ public class Day07_FirstLesson {
 
         List<WebElement> allProducts = driver.findElements(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']"));
 
-        for(WebElement w:allProducts){
+        for (WebElement w : allProducts) {
             System.out.println(w.getText());
         }
 
